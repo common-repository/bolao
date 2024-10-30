@@ -1,0 +1,27 @@
+[admin] <tr><th class="check-column" scope="row"><strong>{POOL_ID}</strong></th><td><strong>{QUESTION}</strong></td><td>{STATUS}</td><td width="6px"><input type="submit" class="button" name="details {POOL_ID}" value="{DETAILS}"  /></td></tr>
+[other] <tr><th class="check-column" scope="row"><strong>{POOL_ID}</strong></th><td><strong>{QUESTION}</strong></td><td>{STATUS}</td><td width="6px"><input type="submit" class="button" name="details {POOL_ID}" value="{DETAILS}"  /></td></tr>
+<div class="wrap">
+
+{SALD}
+
+<h2>{RESUME}</h2>
+
+<form id="posts-filter" action="">
+<input type="hidden" name="handle" value="handle" />
+<input type="hidden" name="page" value="bolao/bolao.php" />
+<table class="widefat">
+	<thead>
+  	<tr>
+    	<th class="check-column" scope="col">#</th>
+      <th scope="col">{TITLE}</th>
+      <th scope="col">{STATUS}</th>
+    	<th scope="col">&nbsp;</th>
+  	</tr>
+	</thead>
+	<tbody>
+    [loop]
+  </tbody>
+</table>
+</form>
+<div class="tablenav"><br class="clear"/></div>
+</div>

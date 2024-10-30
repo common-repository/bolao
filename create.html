@@ -1,0 +1,38 @@
+<div class="wrap">
+
+<h2>{TITLE}</h2>
+
+{RETURN}
+<form method="POST" action="{ACTION}">
+  <table class="form-table">
+    <tbody>
+      <tr valign="top">
+        <th>
+          <label for="bolao_title">{TITLE_OF_POOL}</label>
+        </th>
+        <td scope="row">
+          <input type="text" name="title" id="bolao_title" value="{VALUE_TITLE_OF_POOL}" size="40" />
+        </td>
+      </tr>
+      <tr valign="top">
+        <th>
+          <label for="bolao_value">{VALUE}</label>
+        </th>
+        <td scope="row">
+          <input type="text" name="value" id="bolao_value" value="{VALUE_OF_POOL}" size="3" />
+        </td>
+      </tr>
+      <tr valign="top">
+        <th>
+            {THE_OPTIONS}
+        </th>
+        <td scope="row">
+            {OPTIONS}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="submit"><input type="submit" name="submit" value="{SAVE}"  /></p>
+</form>
+
+</div>

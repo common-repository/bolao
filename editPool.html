@@ -1,0 +1,37 @@
+<div class="wrap">
+
+<h2>{EDIT_TITLE}</h2>
+
+{AB}<form action="">
+{AB}<input type="hidden" name="handle" value="handle" />
+{AB}<input type="hidden" name="details {ID}" value="{ID}" />
+{AB}<input type="hidden" name="page" value="bolao/bolao.php" />
+  <h3>{TITLE}</h3>
+  <table class="form-table">
+    <tbody>
+      <tr valign="top">
+        <th>{STATUS_TITLE}</th>
+        <td scope="row">{STATUS}</td>
+      </tr>
+      <tr valign="top">
+        <th>{VALUE}</th>
+        <td scope="row">{POOL_VALUE}</td>
+      </tr>
+      <tr valign="top">
+        <th>
+          {OPTIONS}
+        </th>
+        <td>
+          [options]
+        </td>
+        {EXTRA}
+      </tr>
+    </tbody>
+  </table>
+{AB}  <p class="submit">
+{AB}    <input type="submit" class="button" name="close"  onclick="javascript: return confirm('{SURE_CLOSE}')"  value="{CLOSE}"   />
+{AB}    <input type="submit" class="button" name="delete" onclick="javascript: return confirm('{SURE_DELETE}')" value="{DELETE}"  />
+{AB}  </p>
+{AB}</form>
+
+</div>
